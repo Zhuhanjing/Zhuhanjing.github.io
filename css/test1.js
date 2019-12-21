@@ -67,6 +67,11 @@ function update() {
         }
     }
 }
+window.onresize = function(){
+    console.log(1);
+    setup()
+};
+
 function moved() {
     var particle, max, i;
     max = random( 1, 4 );
@@ -76,7 +81,10 @@ function moved() {
 }
 
 function setup() {
-  var canvas = createCanvas(1502, 780);
+    console.log(window.screen.availHeight )
+    console.log(document.body.clientHeight)
+    
+  var canvas = createCanvas(document.body.offsetWidth,document.body.clientHeight);
 canvas.parent('sketch-holder');
 }
 

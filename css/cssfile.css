@@ -4,6 +4,17 @@ body a {
   text-decoration: none;
   color: white;
 }
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  font-family:"Microsoft Yahei";
+}
+hr{
+  width: 100% !important;
+  margin-left: 0 !important;
+}
 /*首页*/
 .bigboxa {
   margin: 0 auto;
@@ -28,21 +39,6 @@ body a {
   height: 180px;
   margin-left: 160px;
   margin-top: 60px;
-}
-.main1 {
-  height: 260px;
-  width: 1000px;
-
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 300px;
-  margin-top: -50px;
-}
-.main2 {
-  height: 80px;
-  width: 500px;
-  margin-top: -280px;
-  margin-left: 100px;
 }
 .side1 {
   width: 50px;
@@ -129,16 +125,18 @@ body a {
 .side1 .imgc:hover {
   background-image: url("../images/pic11.png");
 }
+
 /*首页*/
 /*design*/
 .bigboxb {
   margin: 0 auto;
-  width: 1500px;
-  height: 850px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   border: 1px solid white;
-  background-image: url("../images/tpic1.jpg");
+  background-image: url("../images/design/资源\ 00.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 .header1 ul li {
   list-style-type: none;
@@ -155,12 +153,16 @@ body a {
   margin-left: 760px;
   margin-top: 60px;
 }
+.ll{
+  width:30%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .mmain1 {
-  height: 250px;
-  width: 400px;
-  position: relative;
-  top: -10px;
-    left: 40px;
+  width: 100%;
+  height: 260px;
+
 }
 .mmain1 img {
   position: relative;
@@ -171,87 +173,90 @@ body a {
   font-size: 24px;
   color: white;
   margin-left: 60px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 30px;
 }
 .mmain2 {
-  position: relative;
-  top: 50px;
-  height: 160px;
-  width: 450px;
+  width: 100%;
 }
 .mmain2 p {
-  margin-left: 110px;
-  margin-top: 50px;
+  margin-left: 10px;
   font-size: 18px;
   color: white;
+  margin-right: 20px;
+  padding: 5% 5% 10% 5%;
 }
 .mmain1 .pp1:hover {
   color: black;
 }
 .mmain3 {
-  position: relative;
-  top: -550px;
-  left: 540px;
-  margin-top: 90px;
-  height: 680px;
-  width: 900px;
-}
-.mmain3 h1 {
-  color: #F79B1E;
-}
-.mmain3 .pp2 {
-  font-size: 18px;
-  position: relative;
-  top: -350px;
-  width: 850px;
-}
-.mmain3 .pp3 {
-  font-size: 18px;
-  width: 350px;
-  position: relative;
-  top: -370px;
-  left: 530px;
-}
-.mmain4 {
-  position: relative;
-    left: -20px;
-  top: -750px;
-  width: 200px;
-}
-.mmain4 .imga {
-  width: 50px;
-  height: 50px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("../images/pic7.png");
-  position: relative;
-  left: 160px;
-  top: 20px;
+  background-image: url("../images/profile/rbg2.png");
+  background-size: 100% 100%;
+  margin-left: 3%;
+  width: 62%;
+  float:left;
+  box-shadow: 0 0 20px 20px #9e9d9d4d;
+  margin-bottom: 5%;
+  margin-top: 30px;
 }
-.mmain4 .imga:hover {
-  background-image: url("../images/pic6.png");
+.mmain3 img{
+  padding: 5px;
 }
-.mmain4 .imgb {
-  width: 40px;
+.mmain3 h1 {
+
+  color: #F79B1E;
+  width:100%;
+}
+.mmain3 .pp2 {
+  font-size: 15px;
+  width:100%;
+}
+.mmain3 .pp3 {
+  font-size: 15px;
+  width: 100%;
+}
+.mmain4{
+  margin-top: 30px;
+}
+.mmain4 p{
+  float: left;
+  width: 30% !important;
+
+}
+.mmain4 .imga {
+  margin-top: -10px;
+  margin-left: 8%;
+  width: 30%;
   height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("../images/pic9.png");
-  position: relative;
-  left: 65px;
-  top: -40px;
 }
-.mmain4 .imgb:hover {
+.mmain4 .imga:hover {
   background-image: url("../images/pic8.png");
 }
+.mmain4 .imgb {
+  margin-top: -10px;
+  width: 30%;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../images/pic7.png");
+}
+.mmain4 .imgb:hover {
+  background-image: url("../images/pic6.png");
+}
 .mmain4 .imgc {
-  width: 40px;
+  margin-top: -10px;
+  width: 30%;
   height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("../images/pic11.png");
-  position: relative;
-  left: 265px;
-  top: -95px;
 }
 .mmain4 .imgc:hover {
   background-image: url("../images/pic10.png");
@@ -265,23 +270,25 @@ body a {
 }
 .bigboxc {
   margin: 0 auto;
-  width: 1500px;
-  height: 850px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   border: 1px solid white;
-  background-image: url("../images/tpic4.jpg");
+  background-image: url("../images/vis/资源8.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 /*vis*/
 /*visual*/
 .bigboxd {
   margin: 0 auto;
-  width: 1500px;
-  height: 850px;
+  width: 100%;
+  height: 100%;
   border: 1px solid white;
-  background-image: url("../images/tpic2.jpg");
+  overflow: auto;
+  background-image: url("../images/visual/资源\ 10.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 .mmain1 .imge {
   position: relative;
@@ -320,12 +327,13 @@ body a {
 /*inter*/
 .bigboxf {
   margin: 0 auto;
-  width: 1500px;
-  height: 850px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   border: 1px solid white;
-  background-image: url("../images/tpic3.jpg");
+  background-image: url("../images/ingame/资源\ 02.png ");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 .mmain1 .imgf {
   position: relative;
@@ -333,15 +341,13 @@ body a {
   left: 10px;
 }
 .b2 {
-  width: 940px;
-  height: 640px;
-  margin-top: -30px;
-  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
   z-index: 1000;
-  margin-left: -32px;
 }
 .extra1 {
-  width: 910px;
+  width: 100%;
   border: 1px solid white;
   height: 1010px;
 }
@@ -349,35 +355,23 @@ body a {
   color: #68B675;
 }
 .imgg1 {
-  float: left;
-  margin-left: 50px;
-  margin-right: 30px;
+  width: 100%;
 }
 .imgg2 {
-  position: relative;
-  left: -400px;
-  top: 40px;
+  width: 100%;
 }
 .imgg2 .pp5 {
-  position: relative;
-  left: 450px;
-  width: 300px;
+  width: 100%;
 }
 .imgg3 {
-  position: relative;
-  left: 500px;
-  top: -220px;
-  width: 400px;
+  width: 100%;
 }
 .imgg3 .pp5 {
-  width: 400px;
+  width: 100%;
   font-size: 14px;
 }
 .imgg4 {
-  margin-top: -200px;
-  float: left;
-  margin-left: 50px;
-  margin-right: 30px;
+  width: 100%;
 }
 .imgg4 .pp5 {
   font-size: 14px;
@@ -387,18 +381,21 @@ body a {
 .bigboxe {
   margin: 0 auto;
   width: 1500px;
-  height: 870px;
+  height: 900px;
   border: 1px solid white;
-  background-image: url("../images/pic20.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
 .contact1 {
-  position: relative;
-  top: 120px;
-  left: 320px;
-  width: 200px;
-}
+  float: left;
+  width: 30%;
+  height:100%;
+  margin-left: 5%;
+  text-align: center;
+  background-image: url("../images/资源\ 41.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  }
 .contact1 .pp6 {
   margin-left: -60px;
   width: 200px;
@@ -408,19 +405,15 @@ body a {
 }
 .contact2 h1 {
   color: white;
-  margin-left: 700px;
-  font-size: 42px;
-  margin-top: -90px;
 }
 .contact2 p {
   color: white;
-  margin-left: 700px;
   margin-top: 30px;
 }
 .contact2 img {
-  width: 70px;
-  margin-top: 60px;
-  margin-left: 680px;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 60%;
 }
 .contact3 img {
   width: 50px;
@@ -430,7 +423,7 @@ body a {
 .header2 ul li {
   list-style-type: none;
   float: left;
-  color: black;
+  color: white;
   font-size: 24px;
   margin-right: 90px;
 }
@@ -485,12 +478,10 @@ body a {
   margin-left: 80px;
 }
 .c1 {
-  width: 885px;
+  width: 100%;
   height: 1800px;
 }
-.c1 .fame{
-    margin-left: 50px;
-}
+
 .d1 {
   font-size: 40px;
   margin-left: 30px;
@@ -510,7 +501,7 @@ body a {
   background-image: url("../images/资源 3.png");
   width: 300px;
   height: 140px;
-  margin-left: 400px;
+  margin-left: 57%;
   margin-top: -190px;
 }
 .d3 a {
@@ -530,7 +521,7 @@ body a {
   margin-top: 30px;
 }
 .d6 td {
-  width: 170px;
+  width: 213px;
   text-align: center;
 	 font-size: 13px;
 }
@@ -540,7 +531,7 @@ body a {
   margin-top: 30px;
 }
 .d7 td {
-  width: 170px;
+  width: 213px;
   font-size: 13px;
   text-align: center;
 }
@@ -590,8 +581,6 @@ body a {
 /*connect*/
 .bigboxy {
   margin: 0 auto;
-  width: 1500px;
-  height: 850px;
   border: 1px solid white;
   background-image: url("../images/pic36.png");
   background-repeat: no-repeat;
@@ -727,112 +716,128 @@ margin-left: 150px;
   background-image: url("../images/pic8.png");
 }
 .extraa .imga{
-    width: 65px;
-  height: 65px;
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  background-image: url("../images/pic41.png");
-  position: relative;
-    top: 225px;
-    left: -18px;
-}
-.extraa .imga:hover {
-  width: 65px;
-  height: 65px;
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  background-image: url("../images/pic47.png");
-}
-.extraa .imgb{
-    width: 55px;
-  height: 55px;
-  background-repeat: no-repeat;
-  background-size: 55px 55px;
-  background-image: url("../images/pic42.png");
-  position: relative;
-    top: 140px;
-    left: 80px;
-}
-.extraa .imgb:hover {
   width: 55px;
   height: 55px;
   background-repeat: no-repeat;
-  background-size: 55px 55px;
-  background-image: url("../images/pic48.png");
-}
-.extraa .imgc{
-    width: 65px;
-  height: 65px;
-  background-repeat: no-repeat;
-  background-size: 65px 65px;
-  background-image: url("../images/pic43.png");
-  position: relative;
-    top: 50px;
-    left: 180px;
-}
-.extraa .imgc:hover {
-  width: 65px;
-  height: 65px;
-  background-repeat: no-repeat;
-  background-size: 65px 65px;
-  background-image: url("../images/pic49.png");
-}
-.extraa .imgd{
-    width: 55px;
-  height: 55px;
-  background-repeat: no-repeat;
- background-size: 55px 55px;
-  background-image: url("../images/pic44.png");
-  position: relative;
-    top: -40px;
-    left: 280px;
-}
-.extraa .imgd:hover {
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/qq.png");
+  }
+  .extraa .imga:hover {
   width: 55px;
   height: 55px;
   background-repeat: no-repeat;
-  background-size: 55px 55px;
-  background-image: url("../images/pic50.png");
-}
-.extraa .imge{
-    width: 55px;
-  height: 55px;
-  background-repeat: no-repeat;
-  background-size: 55px 55px;
-  background-image: url("../images/pic45.png");
-  position: relative;
-    top: -125px;
-    left: 380px;
-}
-.extraa .imge:hover {
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/qq1.png");
+  }
+  .extraa .imgb{
   width: 55px;
   height: 55px;
   background-repeat: no-repeat;
-  background-size: 55px 55px;
-  background-image: url("../images/pic51.png");
-}
-.extraa{
-    height: 30px;
-}
-.extraa a{
-    height: 10px;
-    width: 30px;
-    position: relative;
-    top: -200px;
-}
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/behance1.png");
+  
+  }
+  .extraa .imgb:hover {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/behance.png");
+  }
+  .extraa .imgc{
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/微信1.png");
+  }
+  .extraa .imgc:hover {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/微信.png");
+  }
+  .extraa .imgd{
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/微博1.png");
+  
+  }
+  .extraa .imgd:hover {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/微博.png");
+  }
+  .extraa .imge{
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/推特_twitter431.png");
+  }
+  .extraa .imge:hover {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../images/contact图标/推特_twitter43.png");
+  }
+  .extraa{
+  width:100%;
+  height: 30px;
+  }
+  .extraa a{
+  height: 10px;
+  width: 100px;
+  float: left;
+  }
 .v{
-	height: 500px;
-	width: 260px;
-	position: relative;
-	top: 30px;
-	margin-left: 50px;
+  width: 95%;
+  top: 30px;
+  margin: auto;
 }
 .v video{
-	width: 825px;
-	height: 460px;
+	width: 100%;
 }
 .abc{
   z-index:-1;
   position: absolute;
  
+}
+@media(min-width:1081px){
+  
+  .header2 {
+      width:45%;
+      margin:40px 3% 0 auto;
+      height: 64px !important;
+  }
+  .header2 ul li {
+      width:25%;
+      margin:0;
+  }
+}
+@media(max-width:1080px){
+  .header2 {
+      width:50%;
+      margin:40px 0 0 auto;
+      height:64px;
+      text-align: end;
+  }
+  .header2 ul li {
+      width:25%;
+      margin:0;
+  }
+}
+@media(max-width:991px){
+  .header2 {
+      width: 65%;
+      margin: 40px 0 0 auto;
+      text-align: end;
+      height: 64px;
+  }
 }

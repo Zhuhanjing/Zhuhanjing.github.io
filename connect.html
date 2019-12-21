@@ -2,14 +2,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/cssfile.css" rel="stylesheet" type="text/css" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
     <script src="css/test.js" type="text/jscript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha384-L2pyEeut/H3mtgCBaUNw7KWzp5n9+4pDQiExs933/5QfaTh8YStYFFkOzSoXjlTb" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <title>works</title>
+<style>
+  .header2 ul li {
+  color: black;
+}
+.header2 ul li:hover {
+  color: #2F73D6;
+}
+</style>
+
 </head>
 
 <body>
-    <div class="bigboxy">
-    <div class="header3">
+    <div class="bigboxy" style="overflow: auto;">
+    <div class="header2" style="height:70px;">
         <ul>
         <a href="index.html"><li>Home</li></a>
             <a href="profile1.html"><li>Profile</li></a>
@@ -17,26 +31,37 @@
             <a href="contact.html"><li>Contact</li></a>
         </ul>
         </div>
-		<div class="aa">
-        <div id="container">
-        <div id="list" style="left: -1170px;">
-            <a href="vis.html"><img src="images/pic34.png" alt="1" /></a>
-            <a href="vis.html"><img src="images/pic34.png" alt="1" /></a>
-            <a href="visual.html"><img src="images/pic31.png" alt="2" /></a>
-            <a href="design.html"><img src="images/pic32.png" alt="3" /></a>
-            <a href="interactiongame.html"><img src="images/pic33.png" alt="4" /></a>
-           <a href="interactiongame.html"><img src="images/pic33.png" alt="4" /></a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 70%;margin:0 auto;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="vis.html"><img src="images/pic34.png" class="d-block w-100" alt="1"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="visual.html"><img src="images/pic31.png" class="d-block w-100" alt="2"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="design.html"><img src="images/pic32.png" class="d-block w-100" alt="3"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="interactiongame.html"><img src="images/pic33.png" class="d-block w-100" alt="4"></a>
+          </div>
         </div>
-        <div id="buttons">
-            <span index="1" class="on"></span>
-            <span index="2"></span>
-            <span index="3"></span>
-            <span index="4"></span>
-        </div>
-        <a href="javascript:;" id="prev" class="arrow"></a>
-        <a href="javascript:;" id="next" class="arrow1"></a>
-    </div>
-    </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="left:-3%;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="right:-10px;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+ 
 		</div>
 </body>
 </html>
