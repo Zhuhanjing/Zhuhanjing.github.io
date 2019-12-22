@@ -166,7 +166,7 @@ hr{
 }
 .mmain1 img {
   position: relative;
-  top: -115px;
+  top: -109px;
   left: 10px;
 }
 .mmain1 .pp1 {
@@ -265,7 +265,7 @@ hr{
 /*vis*/
 .mmain1 .imgd {
   position: relative;
-  top: -230px;
+  top: -200px;
   left: 10px;
 }
 .bigboxc {
@@ -292,7 +292,7 @@ hr{
 }
 .mmain1 .imge {
   position: relative;
-  top: -170px;
+  top: -165px;
   left: 10px;
 }
 .mmmain3 {
@@ -381,14 +381,14 @@ hr{
 .bigboxe {
   margin: 0 auto;
   width: 1500px;
-  height: 900px;
+  height: 870px;
   border: 1px solid white;
   
 }
 .contact1 {
   float: left;
   width: 30%;
-  height:100%;
+  height:92%;
   margin-left: 5%;
   text-align: center;
   background-image: url("../images/资源\ 41.png");
@@ -521,7 +521,7 @@ hr{
   margin-top: 30px;
 }
 .d6 td {
-  width: 213px;
+  width: 174px;
   text-align: center;
 	 font-size: 13px;
 }
@@ -531,7 +531,7 @@ hr{
   margin-top: 30px;
 }
 .d7 td {
-  width: 213px;
+  width: 174px;
   font-size: 13px;
   text-align: center;
 }
